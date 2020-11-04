@@ -9,6 +9,7 @@ header {
   background-color: #39a6b2;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 header h1 {
   font-weight: bold;
@@ -23,13 +24,20 @@ header a {
 header nav {
   margin: 7px 0;
 }
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 Header nav ul li {
   display: inline;
 }
 Header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 header h1 {
   font-weight: bold;
@@ -54,7 +62,8 @@ footer h2 {
   font-size: 30 pc;
   margin: 0;
 }
-footer div { float right;
+footer div { 
+float right;
 line-height: 1.5;
 text-align: right;
 }
